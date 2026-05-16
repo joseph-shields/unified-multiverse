@@ -84,10 +84,10 @@ for i in range(len(levels)-1):
                 ha='center', va='top', style='italic')
 
 # ── closing loop arrow (E=mc²) ────────────────────────────────────────
-ax.annotate('', xy=(1.6, 4.8), xytext=(19.6, 4.8),
+ax.annotate('', xy=(1.6, 3.8), xytext=(19.6, 3.8),
             arrowprops=dict(arrowstyle='->', color='#FF6B6B', lw=2.0,
                             connectionstyle='arc3,rad=0.0'))
-ax.text(11, 4.4, r'$E=mc^2$ — light sea collapses back to matter sea — loop closes',
+ax.text(11, 3.35, r'$E=mc^2$ — light sea collapses back to matter sea — loop closes',
         color='#FF6B6B', fontsize=9.5, ha='center',
         bbox=dict(facecolor='#0a0008', edgecolor='#FF6B6B',
                   alpha=0.7, boxstyle='round,pad=0.3'))
