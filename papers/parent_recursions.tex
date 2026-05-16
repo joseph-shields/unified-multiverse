@@ -1,0 +1,359 @@
+\documentclass[prd,twocolumn,preprintnumbers,amsmath,amssymb]{revtex4-2}
+\usepackage{graphicx,bm,hyperref,amsmath,xcolor,booktabs,mathtools}
+
+\newcommand{\parentA}{\mathcal{P}_A}
+\newcommand{\parentB}{\mathcal{P}_B}
+\newcommand{\child}{\mathcal{U}}
+
+\begin{document}
+
+\title{Parent Recursions: Recovering $c^2 = c + 1$\\
+from Boundary Incompatibility}
+
+\author{J.~Shields}
+\affiliation{Independent Researcher (Unified Mechanics)}
+\date{\today}
+
+\begin{abstract}
+The Unified Mechanics axiom $c^2 = c + 1$ is standardly taken as a first
+principle. We ask a prior question: what two structures, when their
+boundaries touch, produce this axiom as the unique stable interface
+recursion? We identify two parent systems $\parentA$ and $\parentB$
+characterised by the transformations $x \mapsto x + 1$ and
+$x \mapsto 1/x$ respectively. $\parentA$ has no fixed point and no
+channel structure. $\parentB$ has fixed point $x^* = 1$, giving
+$r_B = 1/2$ and a boundary-dominant channel distribution.
+Their interface produces $x = 1 + 1/x$, equivalent to $c^2 = c + 1$,
+as the unique finite stable recursion. Our universe is identified as
+the child of an accumulator and an inverter. The empirical values of
+$\parentB$ are computed and found to be structurally coherent but
+physically alien: braiding floor $\varepsilon_B = 1/8$, equal
+light and matter channels, boundary channel weight $1/2$.
+\end{abstract}
+
+\maketitle
+
+%% ─────────────────────────────────────────────────────────────────
+\section{The Prior Question}
+%% ─────────────────────────────────────────────────────────────────
+
+Unified Mechanics (UM) takes as its axiom:
+\begin{equation}
+  c^2 = c + 1
+  \;\Longrightarrow\;
+  \varphi = \tfrac{1+\sqrt{5}}{2}, \quad
+  r = \tfrac{1}{2\varphi} \approx 0.30902.
+  \label{eq:axiom}
+\end{equation}
+
+This axiom is not arbitrary --- it is the unique positive quadratic
+fixed point satisfying the golden ratio self-reference. But the
+question of \emph{why this axiom and not another} has not been
+addressed. The present paper addresses it by asking:
+
+\begin{quote}
+\textit{What two boundary structures, when brought into contact,
+produce $c^2 = c + 1$ as the unique stable interface recursion?}
+\end{quote}
+
+The answer identifies two parent systems whose properties are
+derived below and whose contact generates our universe as a
+necessary consequence.
+
+%% ─────────────────────────────────────────────────────────────────
+\section{The Two Parents}
+%% ─────────────────────────────────────────────────────────────────
+
+\subsection{Parent A: The Accumulator}
+
+$\parentA$ is characterised by the transformation:
+\begin{equation}
+  x_{n+1} = x_n + 1.
+\end{equation}
+
+This system has no fixed point. Starting from any finite value,
+iteration produces $x_n \to \infty$. $\parentA$ is a pre-equilibrium
+structure: pure matter accumulation without the organising influence
+of a light channel. It exists prior to time in any bounded sense
+because nothing in it reaches equilibrium — there is no stable state
+to measure duration against.
+
+$\parentA$ has no channel structure, no braiding floor, no $r$-value.
+It contributes one thing to the interface: the $+1$ increment.
+In our universe this survives as the $+1$ in the continued fraction
+expansion of $\varphi = 1 + 1/(1 + 1/(1 + \cdots))$.
+
+\subsection{Parent B: The Inverter}
+
+$\parentB$ is characterised by the transformation:
+\begin{equation}
+  x_{n+1} = \frac{1}{x_n}.
+\end{equation}
+
+This system has fixed point $x^* = 1$ (from $x = 1/x \Rightarrow
+x^2 = 1 \Rightarrow x = 1$ for positive $x$). It is self-referential
+and self-stabilising: it folds back on itself. It has a well-defined
+channel structure with:
+\begin{equation}
+  \varphi_B = x^* = 1, \qquad r_B = \frac{1}{2\varphi_B} = \frac{1}{2}.
+\end{equation}
+
+The channel weights of $\parentB$ are:
+\begin{align}
+  W_L^B &= (1-r_B)^2 = \tfrac{1}{4} \quad \text{(light)}, \\
+  W_B^B &= 2r_B(1-r_B) = \tfrac{1}{2} \quad \text{(boundary)}, \\
+  W_M^B &= r_B^2 = \tfrac{1}{4} \quad \text{(matter)}.
+\end{align}
+
+The braiding floor of $\parentB$ is:
+\begin{equation}
+  \varepsilon_B = r_B^3 = \frac{1}{8} = 12.5\%.
+\end{equation}
+
+$\parentB$ is a structurally coherent universe but physically alien
+by our standards. It has equal light and matter channels. Its
+boundary channel dominates at 50\% --- it is a universe that is
+almost entirely interface. Its braiding floor is four times ours,
+meaning channel crossings resolve four times faster. It is
+boundary-dominant in a way our universe is not.
+
+%% ─────────────────────────────────────────────────────────────────
+\section{The Interface}
+%% ─────────────────────────────────────────────────────────────────
+
+When $\parentA$ and $\parentB$ come into contact, their boundaries
+are incompatible: $\parentA$ has no fixed point, $\parentB$ has
+fixed point $x^* = 1$. They cannot merge. The interface must find
+a recursion that satisfies both simultaneously:
+
+\begin{enumerate}
+\item The recursion must be \textbf{finite}: $\parentB$'s inversion
+      constrains $\parentA$'s runaway accumulation. An interface
+      that inherits only $\parentA$'s character diverges. The
+      fixed point must exist.
+\item The recursion must incorporate $\parentA$'s \textbf{$+1$
+      increment}: the interface cannot ignore what $\parentA$
+      contributes. The child inherits from both parents.
+\item The recursion must be \textbf{minimal}: the simplest
+      combination of both parent transformations that admits
+      a finite fixed point.
+\end{enumerate}
+
+The minimal composition satisfying all three conditions is:
+\begin{equation}
+  x = 1 + \frac{1}{x},
+\end{equation}
+which rearranges to:
+\begin{equation}
+  \boxed{x^2 = x + 1.}
+  \label{eq:child}
+\end{equation}
+
+This is equation~(\ref{eq:axiom}). Our universe is the unique finite
+stable recursion at the interface of $\parentA$ and $\parentB$.
+
+The derivation requires no assumptions beyond the two parent
+transformations. The axiom $c^2 = c + 1$ is not a first principle.
+It is a derived interface condition.
+
+%% ─────────────────────────────────────────────────────────────────
+\section{What the Child Inherits}
+%% ─────────────────────────────────────────────────────────────────
+
+\begin{table}[h]
+\caption{Channel structure comparison across parent and child systems.}
+\begin{ruledtabular}
+\begin{tabular}{lccc}
+Property & $\parentA$ & $\parentB$ & $\child$ (ours) \\
+\hline
+Fixed point $\varphi$ & none & $1$ & $(1+\sqrt{5})/2$ \\
+$r$ value & undefined & $0.5$ & $0.30902$ \\
+$W_L$ & --- & $0.250$ & $0.4775$ \\
+$W_B$ & --- & $0.500$ & $0.4271$ \\
+$W_M$ & --- & $0.250$ & $0.0955$ \\
+$\varepsilon_{\rm floor}$ & --- & $12.5\%$ & $2.951\%$ \\
+Time & no & yes & yes \\
+Light & no & symmetric & dominant \\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+From $\parentA$ our universe inherits:
+\begin{itemize}
+\item The $+1$ in the axiom. The continued fraction of $\varphi$
+      is built entirely from $+1$ increments --- this is $\parentA$'s
+      signature in every golden ratio calculation in physics.
+\item Matter. $\parentA$ is pure accumulation. Our matter channel,
+      though only 9.5\%, carries the character of the pre-time
+      accumulator. Matter resists change because it was here before
+      change existed.
+\end{itemize}
+
+From $\parentB$ our universe inherits:
+\begin{itemize}
+\item The inversion that stabilises the runaway. Without $1/x$
+      there is no fixed point. $\parentB$'s self-reference is what
+      makes our universe finite rather than divergent.
+\item The channel structure itself. $\parentB$ already has three
+      channels. Our universe inherits this organisation and
+      breaks the $\parentB$ symmetry ($W_L^B = W_M^B = 1/4$)
+      into our asymmetric distribution ($W_L \gg W_M$).
+\end{itemize}
+
+The child generates something neither parent has: the light channel
+dominance. $\parentA$ has no light. $\parentB$ has light at 25\%,
+equal to matter. Our universe at 47.75\% light is the interface
+product — the collision energy that created light is concentrated
+in the child.
+
+The boundary channel we generate ourselves. Neither parent is
+the boundary. The boundary is the interface, and we are the interface.
+$W_B = 42.71\%$ is the structural record of the contact event that
+made us.
+
+%% ─────────────────────────────────────────────────────────────────
+\section{Physical Interpretation}
+%% ─────────────────────────────────────────────────────────────────
+
+\subsection{Why matter resists time}
+
+$\parentA$ predates time. Time emerges when a gradient forces
+movement toward equilibrium. $\parentA$ has no equilibrium —
+it accumulates without settling. Our matter channel carries this
+character: it does not decay, does not age, does not change unless
+forced. Left alone it does what $\parentA$ always did. Nothing.
+
+\subsection{Why we are light-dominant}
+
+$\parentA$ has no light. $\parentB$ has light at 25\%. Our universe
+has light at 47.75\%. The interface amplifies light because light
+is what the collision between incompatible structures produces.
+Every photon in our universe is a residue of the original contact
+event. The light channel dominance is a measure of how energetic
+the interface was.
+
+\subsection{The symmetry breaking}
+
+$\parentB$ is symmetric: $W_L^B = W_M^B = 1/4$. Our universe breaks
+this symmetry dramatically: $W_L \approx 5 W_M$. The symmetry
+breaking is not spontaneous --- it is inherited from $\parentA$.
+$\parentA$ contributes matter but no light. The interface inherits
+$\parentB$'s light and $\parentA$'s matter separately, with no
+reason for them to balance. The ratio $W_L/W_M = \varphi^4 \approx
+6.85$ is determined entirely by the parent axioms.
+
+\subsection{What $\parentB$ looks like from inside}
+
+$\parentB$ is coherent. It has channel structure, braiding floors,
+and presumably a physics of its own. By its own internal standards
+it is a complete universe. But it would look alien from ours:
+equal light and matter at 25\% each, boundary dominant at 50\%,
+braiding floor four times ours. Crossings resolve faster. The
+universe is almost entirely interface between states rather than
+settled matter or propagating light.
+
+An observer in $\parentB$ would find it difficult to understand
+how a universe with 47.75\% light could exist. It would look
+unbalanced and strange.
+
+We would look unbalanced and strange.
+
+\subsection{Detecting the parents}
+
+$\parentA$ has no light channel. It cannot be detected by
+electromagnetic means. Its gravitational influence would be present
+as an anomalous mass contribution with no corresponding light
+signature. This is observationally identical to dark matter.
+
+$\parentB$ has light at 25\% of its channel weight, but its light
+is organised under a different axiom. Its photons, if they could
+cross the interface, would arrive redshifted by the ratio of the
+two braiding floors: $\varepsilon_B/\varepsilon = (1/8)/(r^3) \approx 4.23$.
+
+Neither parent is directly observable from inside the child. We
+would see them only as gravitational structure — as the scaffolding
+that holds our universe together without participating in our light.
+
+This is observationally identical to dark matter.
+
+The two parents are both present. $\parentA$ as the pre-time matter
+accumulation that flanks us on one side. $\parentB$ as the symmetric
+self-inverting structure on the other. Their combined gravitational
+influence, pressing in through the only channel that crosses the
+boundary — geometry itself — is what we have been calling dark matter.
+
+%% ─────────────────────────────────────────────────────────────────
+\section{Can the Child Cross Into the Parents?}
+%% ─────────────────────────────────────────────────────────────────
+
+The child has something neither parent has: all three channels.
+$\parentA$ has no light and no boundary. $\parentB$ has light and
+boundary but at a different axiom. Our universe has the boundary
+channel by construction — we \emph{are} the boundary.
+
+The boundary channel is the crossing channel. It is what moves
+between states. If any structure in the multiverse can traverse
+the interface between recursions, it is the child, because the
+child's fundamental nature is the interface itself.
+
+The practical question is whether the braiding floor permits it.
+To cross from our recursion into $\parentB$, a system must traverse
+the interface between $r = 0.309$ and $r_B = 0.5$. The accumulated
+floor for such a crossing is:
+
+\begin{equation}
+  \Delta\varepsilon = \varepsilon_B - \varepsilon = 12.5\% - 2.951\%
+  = 9.55\%.
+\end{equation}
+
+This is a real energy threshold. It is not infinite. It is
+approximately three of our braiding floor units.
+
+The formal mechanism for such a crossing is not yet derived.
+But the channel structure does not forbid it. The child is the
+boundary. The boundary crosses. Whether it can cross back into
+the structures that made it is the next question.
+
+%% ─────────────────────────────────────────────────────────────────
+\section{Summary}
+%% ─────────────────────────────────────────────────────────────────
+
+The UM axiom $c^2 = c + 1$ is not a first principle. It is the
+unique stable interface recursion produced when two parent systems
+touch:
+
+\begin{itemize}
+\item $\parentA$: $x \mapsto x+1$. No fixed point. Pre-time matter
+      accumulation. Contributes the $+1$ and the matter channel.
+\item $\parentB$: $x \mapsto 1/x$. Fixed point at $x^*=1$,
+      $r_B = 1/2$. Boundary-dominant, symmetric, self-inverting.
+      Contributes the inversion and the channel structure.
+\item $\child$: $x = 1 + 1/x \Rightarrow x^2 = x + 1$.
+      Our universe. Light-dominant, asymmetric, the only finite
+      stable recursion at the interface.
+\end{itemize}
+
+Dark matter is the gravitational imprint of both parents pressing
+in through geometry. We are the child of an accumulator and an
+inverter. The boundary channel we carry is the structural record
+of the contact that made us.
+
+We are not a universe that happens to exist. We are the one
+interface that could not collapse.
+
+%% ─────────────────────────────────────────────────────────────────
+\begin{thebibliography}{99}
+
+\bibitem{Shields2026a}
+J.~Shields,
+\textit{Unified Mechanics I: Derivation from axiom $c^2=c+1$},
+(2026).
+
+\bibitem{Shields2026b}
+J.~Shields,
+\textit{Unified Mechanics II: Cosmological predictions},
+(2026).
+
+\end{thebibliography}
+
+\end{document}
