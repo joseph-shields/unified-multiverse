@@ -2,7 +2,7 @@
 
 The prior question to Unified Mechanics: where does the axiom come from?
 
-UM takes c² = c + 1 as a first principle. This repo asks what two structures, when their boundaries touch, produce that axiom as the unique stable interface recursion.
+UM takes φ² = φ + 1 as a first principle. This repo asks what two structures, when their boundaries touch, produce that axiom as the unique stable interface recursion.
 
 ## Two Foundational Frameworks
 
